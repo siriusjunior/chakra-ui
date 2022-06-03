@@ -8,6 +8,7 @@ type Props = {
 
 export const MenuIconButton: VFC<Props> = memo((props) => {
   const { onOpen } = props;
+
   return (
     <IconButton
       aria-label="メニューボタン"
